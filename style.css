@@ -1,0 +1,731 @@
+body {
+    margin: 0;
+}
+
+a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: flex;
+}
+
+.company-info{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.company-info .wrapper {
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.company-info .email-info {
+    margin-top: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%;
+}
+
+.company-info .email-info .email {
+    margin-top: 5px;
+    margin-left: 10px 15px;
+}
+
+.company-info .logo{
+    display: inline-block;
+    width: 59%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.company-info .logo > a {
+    display: block;
+}
+
+.company-info .phone-info {
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+}
+
+.company-info .phone-info .phone {
+    margin-top: 3px;
+    margin-left: 8px;
+}
+.nav {
+    background-color: #5Ab337;
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.nav .nav-bar {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 36px 9px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.nav-bar .active {
+    color: white; 
+}
+
+li a:hover {
+    color: white; 
+    transition: all .3s ease-in-out;
+} 
+
+.nav .top-nav {
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.caption{
+    position: absolute;
+    top: 32%;
+    left: 14%;
+}
+
+.caption a {
+    display: block;
+    background: #fff;
+    color: #050000;
+    max-width: 230px;
+    padding: 16px 0px;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    border: #35a30a solid 1px;
+}
+
+.caption a:hover {
+    background: #58c62c;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+.caption h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #35a30a;
+    font-size: 64px;
+}
+
+.dark {
+    color:black;
+}
+
+.curve .bottom-img {
+    position: absolute;
+    width: 100%;
+    top: 90%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.container .box-info .header {
+    padding-right: 60px;
+    padding-left: 30px;
+}
+
+.container .box-info {
+    width: 60%;    
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.box-info .header {
+    padding: 10px 15px;
+}
+
+.box-info .header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    word-spacing: 1px;
+    color: #58c62c;
+    font-size: 60px;
+}
+
+.box-info .header .dark
+{
+    font-weight: 300;
+}
+
+.box-info .header p {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: initial;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .yogaimg .right-img {
+    width: 80%;
+    margin:30px ;
+}
+
+.weyoga .head h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: #58c62c;
+    font-size: 60px;
+    text-align: center;
+}  
+
+.weyoga {
+    top: 10%;
+    position: relative;
+    width: 100%;
+}
+.top-head {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.weyoga .head .black {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color:black;
+    font-size: 60px;
+}
+.row
+{
+    display: flex;
+    width: 100%;
+}
+
+.row .yoga_three_box h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bolder;   
+}
+
+.row .yoga_three_box{
+    margin: 0px 15px;
+}
+
+.row .yoga_three_box figure{
+    margin: 0px;
+}
+
+.row .yoga_three_box img{
+    width: 100%;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    line-height: 1.8;
+    font-weight: lighter;
+}
+
+.contain{
+    margin: 0px 65px;
+}
+
+.contain a {
+    padding: 15px 0px;
+    font-size: 18px;
+    border: 1px solid red;
+    display: block;
+    width: 200px;
+    text-align: center;
+}
+
+.contain a:hover {
+    background: #58c62c;
+    color: #fff;
+    transition:all .3s ease-in-out;
+}
+
+.container .yimg{
+    top: 40px;
+    width: 100%;
+}
+
+.imgyoga .ptag .paragraph{
+    color:#58c62c;
+}
+
+.youryoga {
+    font-family: Arial, Helvetica, sans-serif;
+    color :#58c62c;
+    font-size: 27px;
+}
+
+.imgyoga {
+    padding: 20px 10px;
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+.yogalogo {
+    box-shadow: 0px 0px 23px rgba(0, 0, 0, 0.2);
+    margin-top: 150px;
+}
+
+.yogaprice {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.price h1 {
+    color :#58c62c;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:100;
+}
+
+.price .dark {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:100;
+}
+
+.mainbox {
+    display: flex;
+    text-align: center;
+    margin: 0px 70px;
+    margin-top: 50px;
+}
+
+.box1 {
+    text-align: center;
+    /* margin-left: 50px; */
+    margin: 0px 15px;
+    width: 31%;
+}
+
+
+.box1 .pricing_box_cross{
+    /* padding-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    text-align: center;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.mainbox .box1 .pricing_box h1{
+    /* margin-left: 20%; */
+    background-color: black;
+    color: white;
+    padding: 30px 0px;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+
+}
+
+.mainbox .box1 .pricing_box h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #58c62c;
+    font-size: 90px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.mainbox .box1 .pricing_box_cross span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    color:#58c62c;
+    display: inline-block;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+.mainbox .box1 .pricing_box_cross .dolorfifty {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 90px;
+}
+
+.box1 .pricing_box_cross h1{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #58c62c;
+    vertical-align: middle;
+    padding: 30px 0px;
+    color: white;
+    margin: 0px;
+}
+
+.box1 .pricing_box p{
+    padding-top: 5px;
+    line-height: 1.9;
+}
+
+.box1 .pricing_box a{
+    padding: 15px 0px;
+    margin-left: 63px;
+    margin-top: 55px;
+    font-size: 18px;
+    border: 1px solid red;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: bold;
+}
+
+.box1 .pricing_box a:hover {
+    background: black;
+    color: white;
+    transition:all .3s ease-in-out;
+}
+
+.box1 .pricing_box_cross a{
+    padding: 15px 0px;
+    margin-left: 75px;
+    margin-top: 45px;
+    font-size: 18px;
+    border: 1px solid red;
+    display: block;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box1 .pricing_box_cross .curveimg{
+    position: relative;
+    top: 20px;
+    left: 0px;
+}
+
+.box1 .pricing_box_cross .curveimg img{
+    width: 100%;
+}
+
+.box1 .pricing_box_cross a:hover {
+    background: black;
+    color: white;
+    transition:all .3s ease-in-out;
+}
+
+.newsletter {
+    text-align: center;
+    background-color: #58c62c;
+    padding : 70px 0px;
+}
+
+.newsletter .news h2 {
+    margin-top: 10px;
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.newsletter .news .letter {
+    padding: 15px 20px;
+    border: inherit;
+    width: 30%;
+} 
+
+.newsletter .news .sbbtn {
+    background-color: black;
+    color: white;
+    border: inherit;
+    cursor: pointer;
+    padding: 15px 45px;
+    margin: 0px -4px;
+}
+
+.newsletter .news .sbbtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+.online{
+    text-align: center;
+}
+.online .onlinetxt h1 {
+    font-size: 50px;
+    color : #58c62c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.online .onlinetxt strong {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color : black;
+}
+
+.online .box{
+    background-color: #58c62c;
+    padding: 160px 0px;
+    margin: 120px 82px; 
+    margin-bottom: 60px;
+}
+
+.online .box img{
+    margin-top: -254px;
+    height: 70%;
+    width: 80%;
+    margin-bottom: -85px;
+}
+
+.myform .con{
+    display: flex;
+}
+
+
+.myform .feedback h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #58c62c;
+    font-size: 50px;
+    margin-left: 80px;
+    }
+
+.myform .feedback strong{
+    color: black;
+}
+
+.main-form
+{
+    background-color: #13240c;
+    width: 100%;
+    height: 80%;
+    padding: 70px 105px 50px 100px;
+}
+
+.form-control{
+    background: transparent;
+    border: transparent;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    padding:  8px 2px;
+    width: 100%;
+    color: white;
+
+}
+
+.main-form .input{
+    border-bottom: 1px solid white;
+}
+
+.textarea {
+    background: transparent;
+    border: transparent;
+    width: 100%;
+    padding-top: 12px;
+    color: white;
+}
+
+.main-form .btn{
+    font-size: 18px;
+    margin-left: 77%;
+    margin-top: 25px;
+    padding: 12px 35px;
+    cursor: pointer;
+}
+
+.main-form li{
+    list-style: none;
+    color: white;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.main-form li span{
+    margin: 10px;
+}
+
+.main-form .btn:hover{
+    background: #58c62c ;
+    color: white;
+}
+
+.main-form .social .fab{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border: solid #fff 1px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+}
+
+.main-form .social {
+    display: flex;
+    margin-left: -45px;
+}
+
+.main-form .social .socialmedia:hover{
+    background: #58c62c ;
+    border-radius: 100%;
+}
+
+.map{ 
+    margin-left: 205px;
+} 
+
+.footer {
+    background-color: #317914;;
+    padding: 8px 40px;
+}
+
+.footer .templete{
+    text-align: center;
+    color: #fff;
+}
+
+.footer .templete .free{
+    display: inline;
+    color: #fff;
+}
+
+.footer .templete a:hover {
+    color: black;
+}
+
+input:focus{
+    outline: 0;
+}
+
+textarea:focus{
+    outline: 0;
+}
+
+
+
+
+/* .container {
+    position: relative;
+    text-align: center;
+    color: white;
+} */
+
+/* .mail_img {
+    position: absolute;
+    background-color: transparent;
+    top: 20px;
+    right: 20px;
+    left: 16px;
+    width: 30px; 
+    padding: 30px 70px;   
+} */
+
+/* .logo_img {
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+    right: 100px;
+    left: 50px;
+    width: 230px; 
+    padding: 20px 430px; 
+} */
+
+/* .contact_img {
+    margin-right: 20px;
+    left: 80%;
+    top: 7%;
+    position: absolute;
+    width: 100%;
+    clear: right;
+} */
+
+/* .mybody h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: #35a30a;
+    position: absolute;
+    top: 30%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+} */
+
+/* .mybody strong {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: black;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+} */
+
+/* .contactus {
+    padding: 15px 60px ;
+    background-color: white;
+    border: 1px solid red;
+    top: 55%;
+    left: 15%;
+    position: absolute;
+} */
+
+/* .nav {    
+    background-color: #5Ab337; 
+    list-style-type: none;
+    padding: 5px;
+    top: 15%;
+    position: absolute;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px 15px 50px; 
+}
+
+li a {
+  font-size: 17px;
+}
+
+.active {
+  color: white; 
+}
+
+li a:hover {
+  color: white; 
+  transition:all .3s ease-in-out;
+} */
+
+/* .mybody a:hover {
+    transition: all .4s ease-in-out;
+    color: white;
+    background: rgb(255,69,0,0.8)
+}
+
+.cross {
+  position: absolute;
+  top: 68%;
+} */
+
+/* .card {
+    top: 100%;
+    width: 48%;
+    height: 78%;
+    box-shadow: #ddd 0px 0px 20px 0px;
+    box-sizing: border-box;
+    padding: 50px 50px;
+    margin-top: 75px;
+} */
+  
+/* .header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #35a30a;
+    padding-top: 5px;
+    font-size: 50px;
+  }
+  
+.header strong {
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 50px;
+}  
+.box p {
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;  
+    padding: 5px;
+} */
+
